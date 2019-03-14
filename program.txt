@@ -1,0 +1,25 @@
+const a=6;
+var b,c;
+procedure p;
+var d;
+begin
+   if b#1
+   then
+   d:=-12;
+   c:=b+a
+end;
+procedure q;
+  var e,f;
+begin
+  e:=f
+end;
+begin
+   read (b);
+   while b#1 do
+     begin
+       c:=b;
+       call p;
+       write(c);
+       read(b)
+     end
+end
